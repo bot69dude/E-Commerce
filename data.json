@@ -1,0 +1,153 @@
+[
+    {
+        "__parentArray": [
+            {
+                "quantity": 2,
+                "product": "676e87f81a2a42729c643f70",
+                "_id": "676e923d0c49342df223a471"
+            },
+            {
+                "quantity": 1,
+                "product": "676e4c2e4e2c66381e0fdafc",
+                "_id": "676e92730c49342df223a47a"
+            }
+        ],
+        "__index": 0,
+        "$__parent": {
+            "_id": "676cff32f4f163288f46ed0d",
+            "username": "sarah_lee",
+            "email": "sarah@example.com",
+            "password": "$2a$10$es/f4uKdtTK11NqjyGWiMuuftJQ/3ZKh5TKXPOzsAJx1a8VMsgBVe",
+            "isAdmin": false,
+            "role": "customer",
+            "cartItems": [
+                {
+                    "quantity": 2,
+                    "product": "676e87f81a2a42729c643f70",
+                    "_id": "676e923d0c49342df223a471"
+                },
+                {
+                    "quantity": 1,
+                    "product": "676e4c2e4e2c66381e0fdafc",
+                    "_id": "676e92730c49342df223a47a"
+                }
+            ],
+            "createdAt": "2024-12-26T07:01:06.329Z",
+            "updatedAt": "2024-12-27T11:41:39.154Z",
+            "__v": 2
+        },
+        "$__": {
+            "activePaths": {
+                "paths": {
+                    "product": "init",
+                    "quantity": "init",
+                    "_id": "init"
+                },
+                "states": {
+                    "require": {},
+                    "default": {},
+                    "init": {
+                        "quantity": true,
+                        "product": true,
+                        "_id": true
+                    }
+                }
+            }
+        },
+        "_doc": {
+            "quantity": 2,
+            "product": "676e87f81a2a42729c643f70",
+            "_id": "676e923d0c49342df223a471"
+        },
+        "$isNew": false,
+        "product": {
+            "_id": "676e87f81a2a42729c643f70",
+            "name": "Gaming Laptop",
+            "description": "High-performance laptop for gaming",
+            "price": 1299.99,
+            "countInStock": 15,
+            "ImageUrl": "https://res.cloudinary.com/dqqolc1bo/image/upload/v1735297016/products/k6qxtijovgijumqcvxsj.jpg",
+            "Category": [
+                "Electronics"
+            ],
+            "isFeatured": true,
+            "__v": 0
+        }
+    },
+    {
+        "__parentArray": [
+            {
+                "quantity": 2,
+                "product": "676e87f81a2a42729c643f70",
+                "_id": "676e923d0c49342df223a471"
+            },
+            {
+                "quantity": 1,
+                "product": "676e4c2e4e2c66381e0fdafc",
+                "_id": "676e92730c49342df223a47a"
+            }
+        ],
+        "__index": 1,
+        "$__parent": {
+            "_id": "676cff32f4f163288f46ed0d",
+            "username": "sarah_lee",
+            "email": "sarah@example.com",
+            "password": "$2a$10$es/f4uKdtTK11NqjyGWiMuuftJQ/3ZKh5TKXPOzsAJx1a8VMsgBVe",
+            "isAdmin": false,
+            "role": "customer",
+            "cartItems": [
+                {
+                    "quantity": 2,
+                    "product": "676e87f81a2a42729c643f70",
+                    "_id": "676e923d0c49342df223a471"
+                },
+                {
+                    "quantity": 1,
+                    "product": "676e4c2e4e2c66381e0fdafc",
+                    "_id": "676e92730c49342df223a47a"
+                }
+            ],
+            "createdAt": "2024-12-26T07:01:06.329Z",
+            "updatedAt": "2024-12-27T11:41:39.154Z",
+            "__v": 2
+        },
+        "$__": {
+            "activePaths": {
+                "paths": {
+                    "product": "init",
+                    "quantity": "init",
+                    "_id": "init"
+                },
+                "states": {
+                    "require": {},
+                    "default": {},
+                    "init": {
+                        "quantity": true,
+                        "product": true,
+                        "_id": true
+                    }
+                }
+            }
+        },
+        "_doc": {
+            "quantity": 1,
+            "product": "676e4c2e4e2c66381e0fdafc",
+            "_id": "676e92730c49342df223a47a"
+        },
+        "$isNew": false,
+        "product": {
+            "_id": "676e4c2e4e2c66381e0fdafc",
+            "name": "4K Ultra HD TV",
+            "description": "55-inch smart TV with stunning picture quality",
+            "price": 699.99,
+            "countInStock": 30,
+            "ImageUrl": "https://res.cloudinary.com/dqqolc1bo/image/upload/v1735281710/products/czmqqrab4ecuhp2avxab.jpg",
+            "Category": [
+                "Electronics",
+                "Home Appliances"
+            ],
+            "isFeatured": true,
+            "__v": 0
+        }
+    }
+]
